@@ -1,0 +1,12 @@
+.each-appointment {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-width: 1px solid #b5b7c4;
+  border-radius: 8px;
+  padding: 10px;
+}
+.appointment-name-date {
+  display: flex;
+  flex-direction: column;
+}

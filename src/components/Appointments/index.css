@@ -1,0 +1,77 @@
+.main-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: azure;
+  border-radius: 8px;
+}
+.inner-container-top-part {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.image-style {
+  width: 300px;
+}
+
+.hr-line {
+  width: 95%;
+  height: 1px;
+  color: black;
+  border-width: 2px solid black;
+}
+
+.lower-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+}
+
+.Appointments-heading-lower {
+  text-align: left;
+  align-self: flex-start;
+}
+
+.button-style {
+  border-radius: 8px;
+  height: 25px;
+  width: 80px;
+  background-color: white;
+  color: #8b5cf6;
+  text-align: center;
+  border: 1px solid #8b5cf6;
+  margin-top: 10px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: aliceblue;
+  border-width: 0px;
+  border-radius: 6px;
+  height: 20px;
+  width: 60px;
+  text-align: center;
+  margin-top: 5px;
+}
+.appointment-list-container {
+  display: flex;
+  flex-direction: row;
+}
