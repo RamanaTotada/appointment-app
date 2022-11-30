@@ -1,9 +1,9 @@
 import './index.css'
 
 const AppointmentItem = props => {
-  const {appointmentList} = props
+  const {appointmentDetails} = props
 
-  const {titles, dates, isFavorite} = appointmentList
+  const {titles, dates, isFavorite} = appointmentDetails
 
   const imageUrl = isFavorite
     ? 'https://assets.ccbp.in/frontend/react-js/appointments-app/star-img.png'
